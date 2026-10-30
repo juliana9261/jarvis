@@ -1,5 +1,7 @@
 # Jarvis
 
+[![Converse com o meu Jarvis](https://img.shields.io/badge/🤖_Converse_com_o_meu_Jarvis-e0b44c?style=for-the-badge)](https://jarvis-juliana.onrender.com)
+
 Assistente pessoal com IA que responde perguntas sobre mim, meus estudos e meus projetos, com humor no estilo do J.A.R.V.I.S. do Homem de Ferro e resposta em voz.
 
 Roda inteiro no computador, de graça: a IA é um modelo local (Qwen 2.5 7B, via [Ollama](https://ollama.com)) e a voz é a do próprio sistema.
