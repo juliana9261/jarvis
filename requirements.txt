@@ -1,3 +1,5 @@
 fastapi==0.162.0
+httpx==0.28.1
 ollama==0.6.3
+python-dotenv==1.2.4
 uvicorn==0.54.0
