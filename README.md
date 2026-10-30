@@ -4,12 +4,12 @@
 
 Assistente pessoal com IA que responde perguntas sobre mim, meus estudos e meus projetos, com humor no estilo do J.A.R.V.I.S. do Homem de Ferro e resposta em voz.
 
-Roda inteiro no computador, de graça: a IA é um modelo local (Qwen 2.5 7B, via [Ollama](https://ollama.com)) e a voz é a do próprio sistema.
+No ar, roda no [Render](https://render.com) com a IA do [Groq](https://groq.com) (modelo `openai/gpt-oss-120b`). No computador, sem chave do Groq, usa um modelo local (Qwen 2.5 7B, via [Ollama](https://ollama.com)). A voz é a do navegador de quem acessa. Tudo nos planos gratuitos.
 
 ## Como funciona
 
 ```
-Navegador (index.html) ──POST /perguntar──▶ servidor.py (FastAPI) ──▶ Ollama (Qwen 2.5 7B)
+Navegador (index.html) ──POST /perguntar──▶ servidor.py (FastAPI) ──▶ Groq na nuvem, ou Ollama no computador
         ▲                                         │  usa sobre-mim.md como instrução
         └──────────── resposta em JSON ◀──────────┘
         e fala a resposta com a voz do navegador
@@ -55,5 +55,4 @@ Versão de terminal (com voz, no macOS):
 
 ## Próximos passos
 
-- Colocar no ar, trocando o modelo local por uma IA na nuvem.
 - Voz mais natural.
