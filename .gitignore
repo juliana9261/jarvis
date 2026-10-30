@@ -1,0 +1,6 @@
+# Segredos: chaves de API nunca vão para o GitHub
+.env
+
+# Ambiente do Python (cada um recria o seu)
+.venv/
+__pycache__/
